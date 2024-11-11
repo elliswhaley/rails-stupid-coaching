@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background-color: lightgray;
+ }
+
+ #ask {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  border-radius:2px;
+ }
+
+ #ask:hover {
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  transition: 0.3s;
+ }
+
+ .QPlink {
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: lightgray;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+  transition: 0.3s;
+ }
+
+ .QPlink:hover {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+ }
